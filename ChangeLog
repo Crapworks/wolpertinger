@@ -1,0 +1,12 @@
+2010-07-21  Christian Eichelmann <ceichelmann@gmx.de>
+	* version: 0.6
+	* hpet: added HPET support for more precise timing
+	* statistics: added sender statistics (activate with -v)
+	* drop privileges: wolperdrone drops privileges to nobody after creating pcap filter and dnet handle
+	* no database: use -q switch to avoid the scan being saved in the database
+
+2009-06-03  Christian Eichelmann <ceichelmann@gmx.de>
+	* wolpertinger: Release Candidate 1
+
+2009-06-02	Christian Eichelmann <ceichelmann@gmx.de>
+	* main-send.cc: libdnet is used for sending packets
